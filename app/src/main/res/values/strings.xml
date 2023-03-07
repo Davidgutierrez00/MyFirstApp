@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">MyFirstApp</string>
+    <string name="textWelcome">Welcome to my App</string>
+    <string name="textWelcomee">Welcome to our library</string>
+    <string name="descriptionimage">"book "</string>
 </resources>

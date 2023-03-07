@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="textWelcome">Bienvenidos a nuestra App</string>
+    <string name="textWelcomee">Bienvenidos a nuestra Libreria</string>
+    <string name="descriptionimage">libro</string>
+</resources>

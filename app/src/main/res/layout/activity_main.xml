@@ -7,12 +7,26 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/textWelcomee"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.689" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="404dp"
+        android:layout_height="327dp"
+        android:contentDescription="@string/descriptionimage"
+        app:srcCompat="@drawable/livre_ouvert"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="102dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
